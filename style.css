@@ -1,1 +1,683 @@
-Hiper Style
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+}
+
+/* Header Area */
+#main-header {
+    position: absolute;
+    width: 100%;
+    height: 478px;
+    background: linear-gradient(180deg, #EB5757 0%, #D59152 100%);
+    color: #FFFFFF;
+}
+#main-nav {
+    position: relative;
+    top: 26px;
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.company-brand {
+    display: flex; 
+}
+.company-brand img {
+    display: block;
+    width: 34.89px;
+    height: 40px;
+}
+.company-brand span {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 14px;
+}
+ nav ul {
+     list-style: none;
+     justify-content: space-between;
+     text-align: center;
+     
+ }
+ .nav-link .link-item {
+     display: inline-block;
+     padding-right: 30px;
+ }
+ .nav-link a {
+     text-decoration: none;
+     color: #FFFFFF;
+     font-family: 'Roboto', sans-serif;
+ }
+ #main-nav #login-btn {
+    background:rgba(255, 255, 255, 0.4);
+    border: 0px solid transparent;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+ header .hero {
+    position: absolute;
+    width: 730px;
+    height: 144px;
+    left: 384px;
+    top: 167px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 67px;
+    font-size: 32px;
+    text-align: center;
+ 
+ }
+
+ #search {
+     position: absolute;
+     width: 600px;
+     height: 137px;
+     left: 380px;
+     top: 420px;
+     text-align: center;
+    
+ }
+ #search label {
+     font-size: 20px;
+ }
+ #search input {
+    display: block;
+    width: 600px;
+    height: 80px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    left: 400px;
+     
+    background: #FFFFFF;
+    border: 3px solid #F2994A;
+    box-sizing: border-box;
+    border-radius: 40px;
+ }
+
+ section #about {
+    position: absolute;
+    width: 904px;
+    height: 261px;
+    left: 200px;
+    top: 666px;
+    text-align: center;
+    justify-content: center;
+    
+ }
+ #about h5 {
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    color: #C3C0C0;
+ }
+
+ #about p {
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    
+    color: #000000;
+ }
+ #location-section {
+     position: absolute;
+     top: 600px;
+ }
+
+ 
+ .location-tile {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-column-gap: 30px;
+     margin: 0 auto;
+     position: relative;
+     width: 1151px;
+     height: 576px;
+     left: 50px;
+     top: 470px;
+ }
+
+  .location-tile .place {
+      width: 300px;
+      height: 350px;
+      position: relative;
+      border-radius: 5px;
+  }
+  .place .bg-color {
+      position: absolute;
+      top: 0;
+      background: rgba(4, 4, 4, 0.5);
+      width: 100%;
+      height: 100%;
+  } 
+.place#bauchi {
+    background: url("images/bauchi-park.jpg")  no-repeat;
+}
+#jos {
+    background: url("images/chair_table.jpg");
+}
+#abuja {
+    background: url("images/porsche-911.jpg") no-repeat;
+}
+
+.attraction {
+    position: absolute;
+    top: 70%;
+    left: 15px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    padding: 5px;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.attraction-description {
+    position: absolute;
+    top: 84%;
+    left: 15px;
+    padding: 5px;
+    color: #F2994A;
+}
+
+#location-section #more {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 550px;
+    top: 920px;
+    border: 2px solid #EB5757; 
+    border-radius: 30px;
+    background-color: transparent;
+    color: #EB5757;
+    text-transform: uppercase;
+    
+}
+#location-section #more:hover {
+    background: linear-gradient(180deg, #EB5757 0%, #D59152 100%);
+    color: #FFFFFF;
+}
+
+#blog-section {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 1681px;
+    background: url("images/temple.png") no-repeat;
+}
+#blog-section #gradient-box {
+    position: absolute;
+    width: 600px;
+    left: -120px;
+    height: 100%;
+    background: linear-gradient(180deg, #EB5757 0%, #D59152 100%);
+    transform: skewX(-25deg);
+   color: #FFFFFF;
+}
+#gradient-box div {
+    position: absolute;
+    left: 250px;
+    margin-top: 200px;
+    transform: skewX(25deg);
+    font-family:'Catamaran', sans-serif;
+    width: 400px;
+}
+#gradient-box #label {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    color: #FEBE61;
+}
+#gradient-box #main-text {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 77px;
+    font-size: 72px;
+
+    color: #FFFFFF;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    top: 2224px;
+}
+.footer-text {
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    margin-bottom: 20px;
+
+    color: #A9A9A9;
+}
+
+#terms {
+    float: left;
+    padding-left: 15px;   
+}
+#copyright {
+    float: right;
+    padding-right: 15px;
+}
+
+
+/* Responsive 
+    For Small laptops and desktops
+*/
+
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    header .hero {
+        position: absolute;
+        width: 730px;
+        left: 180px;    
+}
+    #search {
+        position: absolute;
+        width: 600px;
+        left: 180px;
+}
+section #about {
+    left: 70px;
+    
+ }
+     #about p {
+        font-size: 18px;
+ }
+ #location-section {
+    left: 70px;
+}
+ .location-tile {
+    width: 100%;
+}
+.location-tile .place {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    border-radius: 5px;
+}
+.attraction {
+    font-size: 20px;
+}
+
+.attraction-description {
+    top: 82%;
+}
+#location-section #more {
+    left: 370px; 
+}
+  
+}
+
+
+/* Responsive 
+    For Small laptops and desktops
+*/
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    #main-header {
+        height: 400px;
+    }
+    #main-nav {
+        font-size: 12px;
+    }
+    header .hero {
+        position: absolute;
+        top: 100px;
+        width: 500px;
+        left: 130px;
+        font-size: 24px;    
+}
+    #search {
+        position: absolute;
+        top: 360px;
+        width: 400px;
+        left: 195px;
+}
+    #search label {
+        
+        position: absolute;
+        top: -15px;
+        left: 18px;
+        font-size: 16px;
+}
+    #search input {
+        display: block;
+        width: 300px;
+        height: 50px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        left: 50px;
+}
+    section #about {
+        left: -30px;
+        top: 500px;
+    
+ }
+     #about p {
+        font-size: 18px;
+ }
+ #location-section {
+    left: 30px;
+}
+ .location-tile {
+    width: 100%;
+}
+.location-tile .place {
+    width: 200px;
+    height: 250px;
+}
+#location-section #more {
+    left: 200px; 
+}
+.attraction {
+    font-size: 16px;
+}
+
+.attraction-description {
+    top: 80%;
+    font-size: 12px;
+}
+#location-section #more {
+    position: absolute;
+    top: 800px;
+    left: 280px;
+    width: 150px; 
+}
+#blog-section {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 1600px;
+}
+#blog-section #gradient-box {
+    position: absolute;
+    width: 350px;
+    left: -100px;
+    height: 100%;
+    background: linear-gradient(180deg, #EB5757 0%, #D59152 100%);
+    transform: skewX(-25deg);
+   color: #FFFFFF;
+}
+#gradient-box div {
+    position: absolute;
+    left: 200px;
+    margin-top: 100px;
+    width: 300px;
+}
+#gradient-box #label {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+#gradient-box #main-text {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 77px;
+    font-size: 44px;
+}
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    top: 2020px;
+}
+.footer-text {
+    font-size: 10px;
+}
+}
+
+
+/* For Tabs */
+@media screen and (max-width: 768px) and (min-width: 562px) {
+    header .hero {
+        position: absolute;
+        top: 120px;
+        width: 500px;
+        left: 70px;
+        font-size: 20px;    
+}
+#search {
+    position: absolute;
+    top: 440px;
+    width: 200px;
+    height: 137px;
+    left: 170px;
+   
+}
+#search label {
+        
+    position: absolute;
+    top: -15px;
+    left: 18px;
+    width: 300px;
+    font-size: 16px;
+}
+#search input {
+    display: block;
+    width: 320px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 10px;
+    left: 40px;
+}
+section #about {
+    left: -150px;
+    top: 550px;
+}
+#about p {
+    font-size: 14px;
+}
+.location-tile {
+    display: block;
+    margin: 0 50px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    left: 50px;
+    top: 350px;
+}
+.location-tile .place {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+#location-section #more {
+    position: absolute;
+    top: 1500px;
+    left: 190px;
+    width: 160px; 
+}
+#blog-section {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 2250px;
+}
+#blog-section #gradient-box {
+    width: 280px;
+    left: -110px;
+    transform: skewX(-25deg);
+}
+#gradient-box div {
+    position: absolute;
+    left: 200px;
+    margin-top: 100px;
+    width: 150px;
+}
+#gradient-box #label {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 8px;
+    letter-spacing: 0.1em;
+}
+#gradient-box #main-text {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 28px;
+}
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    top: 2560px;
+}
+}
+
+/* Small Phones */
+
+@media screen and (max-width: 561px) {
+    #main-header {
+        height: 300px;
+    }
+    nav {
+        display: none;
+    }
+    header .hero {
+        position: absolute;
+        top: 70px;
+        width: 450px;
+        left: 30px;
+        font-size: 14px;    
+}
+#search {
+    position: absolute;
+    top: 260px;
+    width: 200px;
+    height: 137px;
+    left: 115px;
+}
+#search label {
+        
+    position: absolute;
+    top: -15px;
+    left: 18px;
+    width: 300px;
+    font-size: 12px;
+}
+#search input {
+    display: block;
+    width: 320px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 10px;
+    left: 10px;
+}
+section #about {
+    left: -200px;
+    top: 400px;
+}
+#about p {
+    font-size: 10px;
+}
+.location-tile {
+    display: block;
+    margin: 0 50px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    left: 50px;
+    top: 100px;
+}
+.location-tile .place {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.attraction {
+    position: absolute;
+    top: 70%;
+    left: 15px;
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    padding: 5px;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.attraction-description {
+    position: absolute;
+    top: 84%;
+    left: 15px;
+    padding: 5px;
+    color: #F2994A;
+}
+#location-section #more {
+    position: absolute;
+    top: 1100px;
+    left: 190px;
+    width: 160px; 
+}
+#blog-section {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 1850px;
+}
+#gradient-box div {
+    position: absolute;
+    left: 300px;
+    margin-top: 100px;
+    width: 75px;
+}
+#gradient-box #label {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+}
+#gradient-box #main-text {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 20px;
+}
+}
